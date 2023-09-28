@@ -9,14 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@types/node": "18.15.10",
     "@types/react": "18.0.30",
     "@types/react-dom": "18.0.11",
+    "encoding": "^0.1.13",
     "eslint": "8.36.0",
     "eslint-config-next": "13.2.4",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
     "next": "13.2.4",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-timeago": "^7.2.0",
     "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/react-timeago": "^4.1.4",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.30",
+    "tailwindcss": "^3.3.3"
   }
 }
