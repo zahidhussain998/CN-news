@@ -1,3 +1,4 @@
+![main image](https://github.com/zahidhussain998/news-application/assets/100913055/2ba4a667-e54f-4e65-ad7c-11aa3288db92)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -7,7 +8,8 @@ First, run the development server:
 ```bash
 npm run dev
 # or
-yarn dev
+yarn dev![main image](https://github.com/zahidhussain998/news-application/assets/100913055/57d48f39-eea1-4ca7-a88a-dbd23b704e2f)
+
 # or
 pnpm dev
 ```
