@@ -1,3 +1,6 @@
+"use client"
+
+
 import { notFound } from 'next/navigation';
 import LiveTimestamp from '../LiveTimestamp';
 
