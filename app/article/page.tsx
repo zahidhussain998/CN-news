@@ -1,7 +1,6 @@
 "use client"
 
 
-import { notFound } from 'next/navigation';
 import LiveTimestamp from '../LiveTimestamp';
 
 
@@ -15,7 +14,12 @@ function ArticlePage({ searchParams }: Props) {
 		(searchParams && Object.entries(searchParams).length === 0) ||
 		!searchParams
 	) {
-		return notFound();
+		return(
+
+			<div>
+				<h1 className="headerTitle">No Article Found</h1>
+			</div>
+		)
 	}
 
 	const article: Article = searchParams;
@@ -23,6 +27,7 @@ function ArticlePage({ searchParams }: Props) {
     <article>
 			<section className="flex flex-col lg:flex-row pb-24 px-0 lg:px-10">
 				{article.image && (
+					// eslint-disable-next-line @next/next/no-img-element
 					<img
 						className="h-50 max-w-md mx-auto md:max-w-lg lg:max-w-xl object-cover rounded-lg shadow-md"
 						src={article.image}
