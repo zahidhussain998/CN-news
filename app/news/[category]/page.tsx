@@ -1,3 +1,4 @@
+"use client"
 import fetchNews from '../../../lib/fetchNews';
 import NewsList from '../../NewsList';
 import { categories } from '../../../constants';
